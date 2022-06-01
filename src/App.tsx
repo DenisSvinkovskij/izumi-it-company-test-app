@@ -54,7 +54,14 @@ function App() {
 
         {searchInput.length === 0 && animeList && animeList.length === 0 && (
           <div className="search-input-empty-message">
-            Type something in input for search
+            Type something in input for search...
+          </div>
+        )}
+
+        {searchInput.length !== 0 && animeList && animeList.length === 0 && (
+          <div className="search-input-empty-message">
+            Sorry, there is no anime for your query, try changing the query you
+            entered.
           </div>
         )}
 
