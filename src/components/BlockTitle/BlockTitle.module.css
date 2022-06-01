@@ -1,0 +1,11 @@
+.title {
+  font-family: 'Noto Serif JP';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+  color: #00cc99;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
